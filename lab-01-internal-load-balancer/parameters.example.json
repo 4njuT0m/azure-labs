@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": "REPLACE_WITH_YOUR_PASSWORD"
+        },
+        "virtualMachines_lb_VM1_name": {
+            "value": "lb-VM1"
+        },
+        "virtualMachines_lb_VM2_name": {
+            "value": "lb-VM2"
+        },
+        "virtualMachines_lb_TestVM_name": {
+            "value": "lb-TestVM"
+        },
+        "virtualNetworks_lb_vnet_name": {
+            "value": "lb-vnet"
+        },
+        "natGateways_lb_nat_gateway_name": {
+            "value": "lb-nat-gateway"
+        },
+        "loadBalancers_load_balancer_name": {
+            "value": "load-balancer"
+        },
+        "bastionHosts_lb_vnet_Bastion_name": {
+            "value": "lb-vnet-Bastion"
+        },
+        "networkSecurityGroups_lb_nsg_name": {
+            "value": "lb-nsg"
+        },
+        "publicIPAddresses_nat_gw_public_ip_name": {
+            "value": "nat-gw-public-ip"
+        },
+        "publicIPAddresses_lb_vnet_bastion_ip_name": {
+            "value": "lb-vnet-bastion-ip"
+        }
+    }
+}

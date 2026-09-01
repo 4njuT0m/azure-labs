@@ -1,0 +1,58 @@
+# ======================
+# SECRETS & CREDENTIALS
+# ======================
+# Never commit actual parameter files with passwords
+parameters.json
+*.parameters.json
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# Azure credential files
+azureProfile.json
+accessTokens.json
+*.publishsettings
+
+# ======================
+# SENSITIVE AZURE FILES  
+# ======================
+# Service principal credentials
+sp-credentials.json
+service-principal.json
+
+# Key vault exports
+*.pfx
+*.pem
+*.key
+*.cer
+
+# ======================
+# OS & EDITOR FILES
+# ======================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# ======================
+# SAFE TO COMMIT
+# ======================
+# These are explicitly NOT ignored:
+# template.json          ← cleaned ARM template (no secrets)
+# parameters.example.json ← example only, no real passwords
+# README.md              ← documentation
+# screenshots/           ← submission evidence
