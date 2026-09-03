@@ -1,0 +1,14 @@
+Name                                             ResourceGroup      Location            Type                                     Status
+-----------------------------------------------  -----------------  ------------------  ---------------------------------------  ---------
+myVNet                                           myResourceGroupAG  germanywestcentral  Microsoft.Network/virtualNetworks        Succeeded
+myAGPublicIPAddress                              myResourceGroupAG  germanywestcentral  Microsoft.Network/publicIPAddresses      Succeeded
+myNSG                                            myResourceGroupAG  germanywestcentral  Microsoft.Network/networkSecurityGroups  Succeeded
+myNic1                                           myResourceGroupAG  germanywestcentral  Microsoft.Network/networkInterfaces      Succeeded
+myVM1                                            myResourceGroupAG  germanywestcentral  Microsoft.Compute/virtualMachines        Succeeded
+myVM1_OsDisk_1_0ebb8b987ed448ab8d23548d027ae477  MYRESOURCEGROUPAG  germanywestcentral  Microsoft.Compute/disks                  Succeeded
+myNic2                                           myResourceGroupAG  germanywestcentral  Microsoft.Network/networkInterfaces      Succeeded
+myVM2                                            myResourceGroupAG  germanywestcentral  Microsoft.Compute/virtualMachines        Succeeded
+myVM2_OsDisk_1_55191e7df50940aa8d1e10c51e230468  MYRESOURCEGROUPAG  germanywestcentral  Microsoft.Compute/disks                  Succeeded
+myAppGateway                                     myResourceGroupAG  germanywestcentral  Microsoft.Network/applicationGateways    Succeeded
+myNatPip                                         myResourceGroupAG  germanywestcentral  Microsoft.Network/publicIPAddresses      Succeeded
+myNatGateway                                     myResourceGroupAG  germanywestcentral  Microsoft.Network/natGateways            Succeeded

@@ -1,0 +1,11 @@
+# Shell scripts and cloud-init must use LF — they run on Linux (Azure Cloud Shell).
+# Without this, Git on Windows commits CRLF and bash fails with $'\r': command not found.
+*.sh            text eol=lf
+cloud-init.txt  text eol=lf
+
+# Everything else: normalise in the repo, checkout native
+*               text=auto
+
+# Binary
+*.png binary
+*.jpg binary

@@ -1,0 +1,4 @@
+Server     Health    Why
+---------  --------  ---------------------------------
+10.21.1.4  Healthy   Success. Received 200 status code
+10.21.1.5  Healthy   Success. Received 200 status code
