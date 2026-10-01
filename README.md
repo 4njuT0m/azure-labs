@@ -6,8 +6,8 @@ A collection of Microsoft Azure exercises and infrastructure templates.
 
 | # | Lab | Topic | Deployed with | Status |
 |---|-----|-------|---------------|--------|
-| 01 | [Internal Load Balancer](./lab-01-internal-load-balancer/) | Deploy and test an internal load balancer | ARM template | ✅ Complete |
-| 02 | [Application Gateway](./lab-02-application-gateway/) | Deploy and test an L7 gateway across two backend VMs | Azure CLI | ✅ Complete |
+| 01 | [Internal Load Balancer](./lab-01-internal-load-balancer/) | Deploy and test an internal load balancer | ARM template | Complete |
+| 02 | [Application Gateway](./lab-02-application-gateway/) | Deploy and test an L7 gateway across two backend VMs | Azure CLI |  Complete |
 
 ## Structure
 
