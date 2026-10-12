@@ -8,6 +8,7 @@ A collection of Microsoft Azure exercises and infrastructure templates.
 |---|-----|-------|---------------|--------|
 | 01 | [Internal Load Balancer](./lab-01-internal-load-balancer/) | Deploy and test an internal load balancer | ARM template | Complete |
 | 02 | [Application Gateway](./lab-02-application-gateway/) | Deploy and test an L7 gateway across two backend VMs | Azure CLI |  Complete |
+| 08 | [NHI Vault App](./lab-08-entra-service-principal/) | Register an Entra app, create a client secret, log in as the service principal | Entra admin center + Azure CLI | Complete |
 
 ## Structure
 
@@ -24,6 +25,8 @@ ARM labs also contain:
 CLI labs contain instead:
 
 - `lab<NN>-artifacts/` — evidence exported from the live deployment: `template.json` (exported ARM), full resource JSON (e.g. `appgw.json`), `resources.txt`, and command output that proves the lab worked (`backend-health.txt`, `curl-alternating.txt`, `nsg-rules.txt`, …)
+
+Portal and identity labs contain only `README.md` and `screenshots/` — no secrets; client, tenant and subscription IDs are redacted.
 
 ## How to Redeploy Any Lab
 
